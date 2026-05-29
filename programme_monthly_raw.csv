@@ -1,0 +1,58 @@
+# Health Programme Analytics Dashboard
+
+This project shows how routine programme data can be cleaned, summarized, and turned into a dashboard ready dataset for health and social impact reporting.
+
+The dataset is synthetic. It was created for public portfolio use and does not contain real beneficiary or partner records.
+
+## Problem
+
+Programme teams often receive data from several field sites. The data can answer important questions, but only if it is cleaned and presented clearly.
+
+This project answers questions such as:
+
+- Which sites are reaching the most people?
+- Which sites submit reports consistently?
+- Where are monthly trends improving or declining?
+- Which gaps need attention before the next reporting cycle?
+
+## Tools
+
+- Python
+- Pandas
+- Matplotlib
+- Excel style reporting logic
+- Dashboard ready outputs
+
+## Project structure
+
+```text
+health-programme-analytics-dashboard/
+  data/
+  notebooks/
+  outputs/
+  src/
+```
+
+## How to run
+
+```bash
+pip install -r requirements.txt
+python src/build_dashboard_summary.py
+```
+
+## Outputs
+
+- `outputs/kpi_summary.csv`
+- `outputs/site_summary.csv`
+- `outputs/monthly_reach.png`
+- `outputs/reporting_completeness.png`
+- `outputs/site_target_achievement.png`
+- `outputs/dashboard_preview.html`
+
+## What this project demonstrates
+
+- Data cleaning and validation
+- KPI design
+- Programme performance analysis
+- Health and social impact reporting
+- Preparing data for Power BI or Tableau

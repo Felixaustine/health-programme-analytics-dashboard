@@ -1,0 +1,79 @@
+from pathlib import Path
+import pandas as pd
+import matplotlib.pyplot as plt
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data" / "programme_monthly_raw.csv"
+OUT = ROOT / "outputs"
+OUT.mkdir(exist_ok=True)
+
+def main():
+    df = pd.read_csv(DATA)
+    df["month"] = pd.to_datetime(df["month"])
+    df["target_achievement"] = df["people_reached"] / df["target_reach"]
+    df["referral_closure_rate"] = df["referrals_closed"] / df["referrals_made"].replace(0, pd.NA)
+
+    site_summary = (df.groupby("site")
+        .agg(total_reach=("people_reached", "sum"),
+             avg_completion=("reporting_completion_rate", "mean"),
+             avg_target_achievement=("target_achievement", "mean"),
+             total_referrals=("referrals_made", "sum"),
+             closed_referrals=("referrals_closed", "sum"))
+        .reset_index()
+        .sort_values("total_reach", ascending=False))
+    site_summary.to_csv(OUT / "site_summary.csv", index=False)
+
+    kpis = pd.DataFrame({
+        "metric": ["Total people reached", "Average reporting completion", "Average target achievement", "Referral closure rate"],
+        "value": [df["people_reached"].sum(), df["reporting_completion_rate"].mean(), df["target_achievement"].mean(), df["referrals_closed"].sum() / df["referrals_made"].sum()]
+    })
+    kpis.to_csv(OUT / "kpi_summary.csv", index=False)
+
+    monthly = df.groupby("month", as_index=False)["people_reached"].sum()
+    plt.figure(figsize=(10, 5))
+    plt.plot(monthly["month"], monthly["people_reached"], marker="o")
+    plt.title("Monthly Programme Reach")
+    plt.xlabel("Month")
+    plt.ylabel("People Reached")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(OUT / "monthly_reach.png", dpi=160)
+    plt.close()
+
+    completion = df.groupby("site", as_index=False)["reporting_completion_rate"].mean().sort_values("reporting_completion_rate")
+    plt.figure(figsize=(9, 5))
+    plt.barh(completion["site"], completion["reporting_completion_rate"])
+    plt.title("Average Reporting Completion by Site")
+    plt.xlabel("Completion Rate")
+    plt.tight_layout()
+    plt.savefig(OUT / "reporting_completeness.png", dpi=160)
+    plt.close()
+
+    target = df.groupby("site", as_index=False)["target_achievement"].mean().sort_values("target_achievement")
+    plt.figure(figsize=(9, 5))
+    plt.barh(target["site"], target["target_achievement"])
+    plt.title("Average Target Achievement by Site")
+    plt.xlabel("Achievement Rate")
+    plt.tight_layout()
+    plt.savefig(OUT / "site_target_achievement.png", dpi=160)
+    plt.close()
+
+    html = f"""
+    <html><head><title>Health Programme Dashboard Preview</title></head>
+    <body style='font-family:Arial;max-width:1000px;margin:40px auto;'>
+    <h1>Health Programme Dashboard Preview</h1>
+    <p>This preview uses synthetic programme data for public portfolio use.</p>
+    <h2>Key KPIs</h2>
+    {kpis.to_html(index=False)}
+    <h2>Site Summary</h2>
+    {site_summary.head(10).to_html(index=False)}
+    <h2>Charts</h2>
+    <img src='monthly_reach.png' style='max-width:100%;'>
+    <img src='reporting_completeness.png' style='max-width:100%;'>
+    <img src='site_target_achievement.png' style='max-width:100%;'>
+    </body></html>
+    """
+    (OUT / "dashboard_preview.html").write_text(html, encoding="utf-8")
+
+if __name__ == "__main__":
+    main()

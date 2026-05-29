@@ -1,0 +1,169 @@
+site,month,target_reach,people_reached,reporting_completion_rate,reports_due,reports_submitted,issue_category,referrals_made,referrals_closed
+Kibera,2024-01,318,259,0.897,4,4,Missing follow-up,14,9
+Kibera,2024-02,328,316,0.76,5,4,None,28,14
+Kibera,2024-03,374,262,0.618,7,4,Late report,17,9
+Kibera,2024-04,327,287,0.781,7,5,Late report,39,29
+Kibera,2024-05,322,307,0.75,4,3,None,30,26
+Kibera,2024-06,327,313,0.819,5,4,None,22,12
+Kibera,2024-07,338,258,0.753,5,4,Late report,26,14
+Kibera,2024-08,360,315,0.931,4,4,None,48,27
+Kibera,2024-09,328,263,0.792,6,5,Data quality check,21,12
+Kibera,2024-10,348,230,0.716,6,4,Missing follow-up,23,16
+Kibera,2024-11,331,252,0.786,5,4,Missing follow-up,14,9
+Kibera,2024-12,370,249,0.779,4,3,Missing follow-up,28,23
+Kibera,2025-01,299,298,0.842,4,3,Missing follow-up,38,32
+Kibera,2025-02,315,312,0.916,7,6,None,47,35
+Kibera,2025-03,336,274,0.799,5,4,Late report,28,18
+Kibera,2025-04,333,273,0.727,4,3,None,17,11
+Kibera,2025-05,275,340,0.828,7,6,Data quality check,24,19
+Kibera,2025-06,321,335,0.972,5,5,None,41,36
+Kibera,2025-07,282,298,0.71,6,4,None,28,16
+Kibera,2025-08,292,238,0.891,6,5,Late report,38,24
+Kibera,2025-09,312,253,0.84,7,6,Missing follow-up,26,16
+Kibera,2025-10,346,271,0.769,5,4,Late report,26,21
+Kibera,2025-11,327,244,0.75,5,4,Stock gap,34,24
+Kibera,2025-12,320,249,0.75,7,5,Data quality check,28,21
+Mathare,2024-01,340,266,0.741,4,3,Missing follow-up,18,9
+Mathare,2024-02,331,330,0.833,7,6,None,18,15
+Mathare,2024-03,329,305,0.888,6,5,None,46,36
+Mathare,2024-04,331,366,1.0,6,6,Late report,43,23
+Mathare,2024-05,337,271,0.742,6,4,Missing follow-up,21,11
+Mathare,2024-06,336,337,0.904,6,5,Data quality check,28,23
+Mathare,2024-07,337,292,0.716,7,5,Data quality check,15,11
+Mathare,2024-08,321,313,0.867,4,3,Stock gap,48,35
+Mathare,2024-09,336,230,0.838,6,5,Data quality check,22,16
+Mathare,2024-10,331,263,0.933,7,7,None,37,32
+Mathare,2024-11,361,263,0.822,7,6,Late report,37,23
+Mathare,2024-12,342,317,0.75,7,5,None,41,37
+Mathare,2025-01,343,329,0.953,5,5,None,39,30
+Mathare,2025-02,307,378,0.775,4,3,Stock gap,32,24
+Mathare,2025-03,337,324,0.694,7,5,None,43,38
+Mathare,2025-04,353,274,0.869,4,3,Late report,30,24
+Mathare,2025-05,334,305,0.963,6,6,None,37,29
+Mathare,2025-06,356,331,0.726,4,3,Stock gap,30,20
+Mathare,2025-07,314,294,0.726,7,5,Data quality check,43,24
+Mathare,2025-08,277,297,0.873,5,4,None,42,21
+Mathare,2025-09,347,226,0.893,7,6,Data quality check,21,16
+Mathare,2025-10,315,262,0.749,5,4,Late report,32,25
+Mathare,2025-11,319,326,0.823,7,6,Data quality check,30,17
+Mathare,2025-12,338,282,0.84,4,3,Late report,31,22
+Kasarani,2024-01,254,239,0.796,5,4,None,14,9
+Kasarani,2024-02,231,244,0.675,5,3,None,31,19
+Kasarani,2024-03,250,254,0.749,5,4,Missing follow-up,16,12
+Kasarani,2024-04,259,242,0.766,5,4,None,35,27
+Kasarani,2024-05,257,232,0.674,4,3,Data quality check,36,24
+Kasarani,2024-06,253,220,0.822,4,3,None,31,17
+Kasarani,2024-07,288,220,0.703,7,5,None,32,23
+Kasarani,2024-08,254,205,0.769,6,5,Late report,11,8
+Kasarani,2024-09,247,226,0.794,4,3,Missing follow-up,30,26
+Kasarani,2024-10,269,191,0.777,4,3,None,21,18
+Kasarani,2024-11,229,200,0.646,5,3,Late report,22,15
+Kasarani,2024-12,265,250,0.824,6,5,Missing follow-up,13,11
+Kasarani,2025-01,260,197,0.784,5,4,Missing follow-up,27,16
+Kasarani,2025-02,253,244,0.809,5,4,Late report,38,34
+Kasarani,2025-03,265,237,0.85,5,4,Late report,18,12
+Kasarani,2025-04,254,245,0.817,6,5,Data quality check,23,14
+Kasarani,2025-05,272,272,0.892,6,5,None,16,12
+Kasarani,2025-06,268,223,0.776,6,5,None,22,17
+Kasarani,2025-07,271,206,0.8,6,5,Missing follow-up,25,22
+Kasarani,2025-08,247,206,0.781,4,3,Data quality check,19,10
+Kasarani,2025-09,256,200,0.758,7,5,Data quality check,24,12
+Kasarani,2025-10,261,219,0.648,6,4,Missing follow-up,15,8
+Kasarani,2025-11,280,183,0.664,4,3,Missing follow-up,11,7
+Kasarani,2025-12,283,228,0.829,6,5,Data quality check,24,16
+Embakasi,2024-01,318,305,0.777,4,3,Missing follow-up,19,11
+Embakasi,2024-02,294,256,0.944,5,5,Missing follow-up,26,15
+Embakasi,2024-03,313,348,0.998,6,6,None,20,17
+Embakasi,2024-04,290,305,0.839,6,5,Data quality check,16,8
+Embakasi,2024-05,294,300,1.0,6,6,None,39,28
+Embakasi,2024-06,344,304,1.0,5,5,None,23,13
+Embakasi,2024-07,310,252,0.986,4,4,None,13,8
+Embakasi,2024-08,304,266,0.86,4,3,Late report,16,10
+Embakasi,2024-09,315,275,0.817,5,4,Data quality check,21,12
+Embakasi,2024-10,331,247,0.887,6,5,Late report,34,18
+Embakasi,2024-11,297,239,0.969,4,4,Missing follow-up,25,19
+Embakasi,2024-12,317,234,0.752,4,3,Missing follow-up,31,24
+Embakasi,2025-01,322,342,0.947,6,6,None,48,25
+Embakasi,2025-02,248,336,0.835,7,6,None,22,19
+Embakasi,2025-03,275,295,0.905,6,5,Missing follow-up,21,18
+Embakasi,2025-04,295,330,0.831,4,3,Missing follow-up,17,12
+Embakasi,2025-05,296,277,0.845,7,6,Data quality check,26,21
+Embakasi,2025-06,328,234,0.919,7,6,None,20,14
+Embakasi,2025-07,292,253,0.868,5,4,Late report,20,13
+Embakasi,2025-08,322,278,0.861,4,3,None,38,29
+Embakasi,2025-09,328,264,0.933,5,5,Missing follow-up,21,17
+Embakasi,2025-10,337,277,0.86,6,5,None,19,9
+Embakasi,2025-11,303,237,0.959,7,7,Missing follow-up,31,27
+Embakasi,2025-12,333,292,0.978,6,6,Late report,31,16
+Dagoretti,2024-01,205,250,0.78,4,3,Stock gap,32,24
+Dagoretti,2024-02,256,242,0.915,7,6,None,21,17
+Dagoretti,2024-03,269,230,0.85,4,3,Missing follow-up,33,30
+Dagoretti,2024-04,221,236,0.706,7,5,Missing follow-up,24,13
+Dagoretti,2024-05,250,219,0.821,5,4,Stock gap,23,13
+Dagoretti,2024-06,236,191,0.882,6,5,Data quality check,11,9
+Dagoretti,2024-07,276,224,0.908,4,4,Missing follow-up,21,10
+Dagoretti,2024-08,249,199,0.867,7,6,Data quality check,13,11
+Dagoretti,2024-09,269,168,0.793,7,6,Missing follow-up,26,23
+Dagoretti,2024-10,236,224,0.914,7,6,Missing follow-up,34,30
+Dagoretti,2024-11,265,218,0.826,5,4,Late report,11,7
+Dagoretti,2024-12,273,201,0.924,7,6,Missing follow-up,21,10
+Dagoretti,2025-01,243,231,0.781,7,5,Late report,25,13
+Dagoretti,2025-02,236,194,0.842,4,3,None,11,9
+Dagoretti,2025-03,223,260,0.739,7,5,Data quality check,36,24
+Dagoretti,2025-04,214,215,0.872,7,6,None,22,18
+Dagoretti,2025-05,224,212,0.792,5,4,None,18,10
+Dagoretti,2025-06,267,220,0.824,4,3,Missing follow-up,15,8
+Dagoretti,2025-07,267,182,0.908,4,4,None,11,7
+Dagoretti,2025-08,248,181,0.856,7,6,Data quality check,9,6
+Dagoretti,2025-09,238,175,0.961,4,4,Data quality check,9,6
+Dagoretti,2025-10,251,210,0.908,7,6,None,21,11
+Dagoretti,2025-11,264,176,0.927,5,5,Late report,28,20
+Dagoretti,2025-12,233,220,0.755,5,4,Missing follow-up,32,25
+Roysambu,2024-01,251,233,0.792,5,4,Missing follow-up,30,20
+Roysambu,2024-02,233,230,0.838,5,4,Late report,24,19
+Roysambu,2024-03,253,270,0.883,5,4,Missing follow-up,17,14
+Roysambu,2024-04,251,248,0.821,7,6,Late report,21,14
+Roysambu,2024-05,221,238,0.983,6,6,Data quality check,22,20
+Roysambu,2024-06,213,249,1.0,7,7,Late report,35,28
+Roysambu,2024-07,275,176,0.951,5,5,Missing follow-up,18,15
+Roysambu,2024-08,279,243,0.911,4,4,Missing follow-up,29,21
+Roysambu,2024-09,240,186,0.892,6,5,Late report,18,10
+Roysambu,2024-10,268,215,0.831,5,4,Data quality check,22,12
+Roysambu,2024-11,257,180,0.826,6,5,None,10,5
+Roysambu,2024-12,247,252,1.0,6,6,Missing follow-up,34,25
+Roysambu,2025-01,237,249,0.974,5,5,Late report,24,17
+Roysambu,2025-02,229,233,0.982,4,4,Missing follow-up,18,14
+Roysambu,2025-03,270,250,0.872,7,6,None,19,9
+Roysambu,2025-04,264,248,0.955,6,6,Late report,24,18
+Roysambu,2025-05,247,233,1.0,4,4,Missing follow-up,22,19
+Roysambu,2025-06,259,256,0.94,7,7,None,34,17
+Roysambu,2025-07,281,235,0.957,5,5,None,34,18
+Roysambu,2025-08,263,207,0.947,5,5,Data quality check,17,14
+Roysambu,2025-09,280,218,0.772,5,4,Data quality check,25,19
+Roysambu,2025-10,243,233,0.828,6,5,Late report,30,18
+Roysambu,2025-11,249,187,0.936,7,7,Missing follow-up,12,9
+Roysambu,2025-12,224,251,0.932,4,4,Missing follow-up,25,16
+Langata,2024-01,295,275,0.942,5,5,Data quality check,25,21
+Langata,2024-02,260,233,0.854,4,3,Late report,17,13
+Langata,2024-03,276,248,1.0,6,6,Missing follow-up,20,16
+Langata,2024-04,257,217,0.796,4,3,Missing follow-up,16,10
+Langata,2024-05,243,272,0.876,4,4,None,37,20
+Langata,2024-06,282,236,0.839,4,3,Stock gap,28,17
+Langata,2024-07,243,249,0.842,6,5,Stock gap,27,20
+Langata,2024-08,233,230,0.902,4,4,Stock gap,13,11
+Langata,2024-09,241,251,0.747,5,4,Data quality check,28,17
+Langata,2024-10,241,257,0.823,5,4,None,14,7
+Langata,2024-11,245,235,1.0,7,7,Late report,18,13
+Langata,2024-12,239,233,0.936,4,4,Stock gap,17,10
+Langata,2025-01,241,284,0.976,4,4,Missing follow-up,19,9
+Langata,2025-02,262,241,0.955,7,7,Data quality check,20,14
+Langata,2025-03,294,245,0.843,5,4,Late report,33,26
+Langata,2025-04,269,273,0.943,6,6,Stock gap,21,18
+Langata,2025-05,261,240,0.737,5,4,Data quality check,18,9
+Langata,2025-06,266,268,1.0,5,5,Late report,40,35
+Langata,2025-07,285,244,0.836,5,4,Stock gap,12,8
+Langata,2025-08,220,250,0.963,5,5,Missing follow-up,18,14
+Langata,2025-09,225,193,0.759,7,5,Stock gap,19,10
+Langata,2025-10,279,253,0.928,5,5,None,14,12
+Langata,2025-11,207,239,0.941,7,7,Missing follow-up,18,10
+Langata,2025-12,263,223,0.833,7,6,Stock gap,15,11
